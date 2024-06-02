@@ -52,7 +52,8 @@
 
 .one {
     padding-top: 112px;
-    max-width: 100%;
+    padding-bottom: 112px;
+    /* max-width: 100%; */
 }
 
 .effective {
@@ -61,30 +62,43 @@
     margin-bottom: 36px;
     max-width: 496px;
 }
+
+.one-batton {
+
+}
                  /* section 2 */
     
 .second {
     padding-top: 96px;
     padding-bottom: 96px;
+    max-width: 100%;
+    height: 100%;
+}
+
+.second .container {
+
 }
 
 .container-ul {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 24px;
     row-gap: 72px;
     padding-left: 0;
     margin-bottom: 0;
+    max-width: 736px;
+    max-height: 312px;
 }
 
-.text-cont {
+.list-item {
         width: calc((100% - 24px) / 2);
 }
 
 
 .goals-names {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -96,4 +110,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* Section 3 */
+
 }
