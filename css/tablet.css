@@ -113,4 +113,89 @@
 
 /* Section 3 */
 
+.our-team .container {
+margin: 0 auto;
+}
+
+ .our-team-ul {
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 64px 24px;
+    justify-content: center;
+ }
+
+.team-img {
+    flex-basis: calc((100% - 24px) / 2);
+    /* max-width: 100%; */
+        /* margin: 0 auto; */
+}
+    /* section 4 */
+.our-portfolio .container {
+    margin: 0 auto;
+}
+
+ .our-img-container {
+     max-width: 100%;
+ }
+
+.our-list {
+        flex-direction: row;
+            flex-wrap: wrap;
+            gap: 72px 24px;
+            justify-content: center;
+}
+.our-item {
+        flex-basis: calc((100% - 24px) / 2);
+}
+
+/* FOOTER */
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 16px;
+    margin: 0;
+    gap: 72px 24px;
+    justify-content: center;
+}
+.test {
+flex-basis: calc((100% - 24px) / 2);
+}
+
+.webstudio-group {
+max-width: 264px;
+margin: 0;
+    text-align:left;
+    padding: 0;
+}
+
+.social-media-group {
+ max-width: 204px;
+ margin: 0;
+}
+
+.form-footer {
+flex-direction: row;
+}
+.footer-logo {
+        text-align: left;
+}
+.social-media-footer {
+    text-align: left;
+}
+.webstudio-group,
+.social-media-group {
+    padding: 0;
+}
+
+.footer-button {
+    max-width: 117px;
+}
+/* MODAL */
+.modal {
+    max-width: 405px;
+}
 }
