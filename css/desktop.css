@@ -2,4 +2,61 @@
 .container {
  max-width: 1158px;
 }
+
+.logo {
+    margin-right: 76px;
+}
+
+.container-address-links {
+    flex-direction: row;
+    gap: 40px;
+}
+
+     /* section 1 */
+
+.one {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.effective {
+    margin-bottom: 48px;
+}
+
+      /* section 2 */
+
+.second {
+    padding-top: 120px;
+    padding-bottom: 120px;
+          }
+
+.list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.icon-folder-advangages {
+    display: flex;
+}
+
+.container-ul {
+    display: flex;
+    gap: 24px;
+}
+
+.goals-names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.goals-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 }
