@@ -118,12 +118,13 @@
 
 
 .goals-names {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: start;
 }
 
 .goals-info {
@@ -180,7 +181,9 @@ margin: 0 auto;
     padding: 0 16px;
     margin: 0;
     gap: 72px 24px;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    padding-left: 92px;
 }
 .test {
 flex-basis: calc((100% - 24px) / 2);
