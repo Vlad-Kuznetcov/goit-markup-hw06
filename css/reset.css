@@ -18,7 +18,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #434455;
+    color: currentColor;
     line-height: 1;
 }
 
@@ -26,4 +26,9 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a .current {
+
+    color: #404BBF;
 }
